@@ -1,5 +1,5 @@
 lab1:
-	sed -i 's/lab1/lab1/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab1/g' ./.github/classroom/autograding.json
 	cd lab1_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab1_result/.qemu.out
 	cd lab1_result && make grade CC=gcc-4.8
@@ -11,42 +11,42 @@ lab2:
 	cd ucore-x86 && cd lab2_result && make grade CC=gcc-4.8
 
 lab3:
-	sed -i 's/lab1/lab3/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab3/g' ./.github/classroom/autograding.json
 	cd lab3_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab3_result/.qemu.out
 	cd lab3_result && make grade CC=gcc-4.8
 
 
 lab4:
-	sed -i 's/lab1/lab4/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab4/g' ./.github/classroom/autograding.json
 	cd lab4_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab4_result/.qemu.out
 	cd lab4_result && make grade CC=gcc-4.8
 
 
 lab5:
-	sed -i 's/lab1/lab5/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab5/g' ./.github/classroom/autograding.json
 	cd lab5_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab5_result/.qemu.out
 	cd lab5_result && make grade CC=gcc-4.8
 
 
 lab6:
-	sed -i 's/lab1/lab6/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab6/g' ./.github/classroom/autograding.json
 	cd lab6_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab6_result/.qemu.out
 	cd lab6_result && make grade CC=gcc-4.8
 
 
 lab7:
-	sed -i 's/lab1/lab7/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab7/g' ./.github/classroom/autograding.json
 	cd lab7_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab7_result/.qemu.out
 	cd lab7_result && make grade CC=gcc-4.8
 
 
 lab8:
-	sed -i 's/lab1/lab8/g' .github/classroom/autograding.json
+	sed -i 's/lab1/lab8/g' ./.github/classroom/autograding.json
 	cd lab8_result && make qemu CC=gcc-4.8 > .qemu.out
 	cat ./lab8_result/.qemu.out
 	cd lab8_result && make grade CC=gcc-4.8
