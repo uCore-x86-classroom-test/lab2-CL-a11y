@@ -6,9 +6,9 @@ lab1:
 
 lab2:
 	sed -i 's/lab1/lab2/g' .github/classroom/autograding.json
-	cd lab2_result && make qemu CC=gcc-4.8 > .qemu.out
-	cat ./lab2_result/.qemu.out
-	cd lab2_result && make grade CC=gcc-4.8
+	cd ucore-x86 && cd lab2_result && make qemu CC=gcc-4.8 > .qemu.out
+	cd ucore-x86 && cat ./lab2_result/.qemu.out
+	cd ucore-x86 && cd lab2_result && make grade CC=gcc-4.8
 
 lab3:
 	sed -i 's/lab1/lab3/g' .github/classroom/autograding.json
